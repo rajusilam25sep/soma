@@ -3,7 +3,7 @@
   become: yes
   gather_facts: yes
   tasks:
-  - name: in this tasks , i wnat to install apache2 webservers on ubuntu
+  - name: in this tasks , i want to install apache2 webservers on ubuntu
     apt:
       name: "{{mywebpackonubuntu}}"
       state: present
